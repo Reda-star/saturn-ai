@@ -10,7 +10,7 @@ async function main() {
         { name: 'Movies & TV' },
         { name: 'Musicians' },
         { name: 'Games' },
-        { name: 'Animals' },
+        { name: 'Anime' },
         { name: 'Philosophy' },
         { name: 'Scientists' },
       ],
