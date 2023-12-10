@@ -65,7 +65,7 @@ export const ProModal = () => {
           <p className="text-2xl font-medium">
             $9<span className="text-sm font-normal">.99 / mo</span>
           </p>
-          <Button onClick={onSubscribe} disabled={loading} variant="premium">
+          <Button className="hover:scale-110 transition ease-in" onClick={onSubscribe} disabled={loading} variant="premium">
             Subscribe
           </Button>
         </div>

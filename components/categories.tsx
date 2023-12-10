@@ -45,8 +45,8 @@ export const Categories = ({
           md:py-3 
           rounded-md 
           bg-primary/10 
-          hover:opacity-75 
-          transition
+          hover:scale-110 
+          transition ease-in
         `,
           !categoryId ? 'bg-primary/25' : 'bg-primary/10'
         )}
@@ -68,8 +68,8 @@ export const Categories = ({
             md:py-3 
             rounded-md 
             bg-primary/10 
-            hover:opacity-75 
-            transition
+            hover:scale-110
+            transition ease-in
           `,
             item.id === categoryId ? 'bg-primary/25' : 'bg-primary/10'
           )}

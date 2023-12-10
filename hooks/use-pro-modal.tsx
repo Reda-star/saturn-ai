@@ -8,6 +8,6 @@ interface useProModalStore {
 
 export const useProModal = create<useProModalStore>((set) => ({
   isOpen: false,
-  onOpen: () => set({ isOpen: false }),
-  onClose: () => set({ isOpen: true }),
+  onOpen: () => set({ isOpen: true }),
+  onClose: () => set({ isOpen: false }),
 }));

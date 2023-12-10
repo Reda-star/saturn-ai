@@ -25,7 +25,7 @@ export const Navbar = ({
     <div className="fixed w-full z-50 flex justify-between items-center py-2 px-4 h-16 border-b border-primary/10 bg-secondary">
       <div className="flex items-center">
         <MobileSidebar isPro={isPro} />
-        <Link href="/">
+        <Link href="/companion/new">
           <h1 className={cn("hidden md:block text-xl md:text-3xl font-bold text-primary", font.className)}>
             Saturn AI
           </h1>
@@ -33,7 +33,7 @@ export const Navbar = ({
       </div>
       <div className="flex items-center gap-x-3">
         {!isPro && (
-          <Button onClick={proModal.onOpen} size="sm" variant="premium">
+          <Button className="hover:scale-110 transition ease-in" onClick={proModal.onOpen} size="sm" variant="premium">
             Upgrade
             <Sparkles className="h-4 w-4 fill-white text-white ml-2" />
           </Button>
