@@ -43,9 +43,9 @@ export const LandingContent = () => {
   return (
     <div className="px-10 pb-20 bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900">
       <h2 className="text-center text-4xl text-white font-extrabold mb-10">Team Members</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 ">
         {testimonials.map((item) => (
-          <Card key={item.description} className="bg-[#192339] border-none text-white">
+          <Card key={item.description} className="bg-[#192339] border-none text-white hover:scale-110 transition duration-200 ease-in-out">
             <CardHeader>
               <CardTitle className="flex items-center gap-x-2">
                 <div>
